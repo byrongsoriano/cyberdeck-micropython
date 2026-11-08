@@ -1,5 +1,4 @@
-<img width="3072" height="4080" alt="image" src="https://github.com/user-attachments/assets/832402f8-2e2c-41c0-8460-e92a1ea2dbf8" /># PACE x IEEE x RAS Make&Take CyberDeck code in micropython
-# Cyberdeck OS v3.1
+# PACE x IEEE x RAS Make&Take CyberDeck code in micropython
 
 This repository contains `main_v8_stopwatch.py`, a MicroPython-based minimalist operating system and multi-app launcher designed for microcontrollers like the Raspberry Pi Pico 2. It features a custom ST7735 display driver, a retro-synthwave graphical interface, and a suite of built-in games and utilities.
 
