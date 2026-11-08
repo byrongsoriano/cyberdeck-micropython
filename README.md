@@ -40,28 +40,27 @@ This project is configured for a standard SPI setup. The pinout is defined as fo
 | --- | --- | --- |
 | **Display (ST7735)** | SCK (Clock) | 18
 
- |
-|  | MOSI (Data) | 19
 
- |
-|  | CS (Chip Select) | 17
+| **MOSI (Data)** | 19
 
- |
-|  | DC (Data/Command) | 16
 
- |
-|  | RST (Reset) | 20
+| **CS (Chip Select)** | 17
 
- |
+| **DC (Data/Command)** | 16
+
+
+| **RST (Reset)** | 20
+
+ 
 | **Inputs** | NAV Button | 14 (Pull-up)
 
- |
-|  | SELECT Button | 12 (Pull-up)
 
- |
+| **SELECT Button** | 12 (Pull-up)
+
+ 
 | **Audio** | Buzzer (PWM) | 22 (Active Low)
 
- |
+ 
 
 ## Installation & Usage
 
