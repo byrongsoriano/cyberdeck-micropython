@@ -46,6 +46,7 @@ This project is configured for a standard SPI setup. The pinout is defined as fo
 
 | **CS (Chip Select)** | 17
 | --- | --- | --- |
+
 | **DC (Data/Command)** | 16
 | --- | --- | --- |
 
@@ -55,7 +56,7 @@ This project is configured for a standard SPI setup. The pinout is defined as fo
 | **Inputs** | NAV Button | 14 (Pull-up)
 | --- | --- | --- |
 
-| **SELECT Button** | 12 (Pull-up)
+|**SELECT Button** | 12 (Pull-up)
 | --- | --- | --- |
  
 | **Audio** | Buzzer (PWM) | 22 (Active Low)
