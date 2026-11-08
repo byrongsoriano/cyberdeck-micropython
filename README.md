@@ -28,41 +28,20 @@ This repository contains `main_v8_stopwatch.py`, a MicroPython-based minimalist 
 
 * **Stopwatch**: A precise timer tracking minutes, seconds, and milliseconds with start/stop/reset functionality.
 
-
-
-
-
 ## Hardware Configuration
 
 This project is configured for a standard SPI setup. The pinout is defined as follows:
 
 | Component | Pin Function | GPIO Pin |
 | --- | --- | --- |
-| **Display (ST7735)** | SCK (Clock) | 18
-
-
-| **MOSI (Data)** | 19
-| --- | --- | --- |
-
-| **CS (Chip Select)** | 17
-| --- | --- | --- |
-
-| **DC (Data/Command)** | 16
-| --- | --- | --- |
-
-| **RST (Reset)** | 20
-| --- | --- | --- |
- 
-| **Inputs** | NAV Button | 14 (Pull-up)
-| --- | --- | --- |
-
-|**SELECT Button** | 12 (Pull-up)
-| --- | --- | --- |
- 
-| **Audio** | Buzzer (PWM) | 22 (Active Low)
-| --- | --- | --- |
- 
-
+| **Display (ST7735)** | SCK (Clock) | 18 |
+| | MOSI (Data) | 19 |
+| | CS (Chip Select) | 17 |
+| | DC (Data/Command) | 16 |
+| | RST (Reset) | 20 |
+| **Inputs** | NAV Button | 14 (Pull-up) |
+| | SELECT Button | 12 (Pull-up) |
+| **Audio** | Buzzer (PWM) | 22 (Active Low) |
 ## Installation & Usage
 
 1. Flash your microcontroller with the latest MicroPython firmware.
